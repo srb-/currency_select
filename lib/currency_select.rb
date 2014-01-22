@@ -1,5 +1,7 @@
 require "money"
 
+I18n.config.enforce_available_locales = false
+
 module CurrencySelect
   class << self
 
